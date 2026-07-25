@@ -1,7 +1,27 @@
 aid: constelli
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/constelli.png
 name: Constelli
-description: Constelli is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Constelli (Constelli Signals Private Limited) is a Hyderabad, India based defence
+  and aerospace signal-processing company founded in 2017 by Satya Gopal Panigrahi and
+  Avinash Chenreddy. It designs and manufactures radar systems, radar target and echo
+  simulators, deployable drone-based radar payloads, high-performance radar processors,
+  and IRIG-standard digital telemetry receivers for ground, onboard, and satellite
+  telemetry. Its products serve electronic warfare and defence R&D programs globally,
+  including India's Ministry of Defence and DRDO. Constelli raised a $20M Series A led
+  by General Catalyst (with Pravega Ventures and 360 One). It is a hardware/systems
+  company and does not currently publish a public developer API, portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/constelli/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Defense
+- Aerospace
+- Signal Processing
+- Radar
+- Electronic Warfare
+- Telemetry
+- Hardware
 apis: []
+common:
+- type: Website
+  url: https://www.constelli.com/
+- type: Blog
+  url: https://www.constelli.com/blog/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
